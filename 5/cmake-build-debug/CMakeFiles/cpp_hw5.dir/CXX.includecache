@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/drboat/Documents/cpp_hw5/String.h
+ostream
+-
+
+/Users/drboat/Documents/cpp_hw5/cmake-build-debug/String.cpp
+iostream
+-
+cstring
+-
+../String.h
+/Users/drboat/Documents/cpp_hw5/String.h
+
+/Users/drboat/Documents/cpp_hw5/main.cpp
+iostream
+-
+String.h
+/Users/drboat/Documents/cpp_hw5/String.h
+

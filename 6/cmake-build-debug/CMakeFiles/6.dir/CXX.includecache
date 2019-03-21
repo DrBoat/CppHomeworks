@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/drboat/Desktop/CPP_hw/6/Human.cpp
+Human.h
+/Users/drboat/Desktop/CPP_hw/6/Human.h
+
+/Users/drboat/Desktop/CPP_hw/6/Human.h
+iostream
+-
+vector
+-
+string
+-
+map
+-
+algorithm
+-
+
