@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/drboat/Desktop/CPP_hw/9/Array.h
+cctype
+-
+
+/Users/drboat/Desktop/CPP_hw/9/Array.hxx
+Array.h
+/Users/drboat/Desktop/CPP_hw/9/Array.h
+algorithm
+-
+utility
+-
+cstdio
+-
+
+/Users/drboat/Desktop/CPP_hw/9/main.cpp
+Array.hxx
+/Users/drboat/Desktop/CPP_hw/9/Array.hxx
+iostream
+-
+typeinfo
+-
+tuple
+-
+stdexcept
+-
+
