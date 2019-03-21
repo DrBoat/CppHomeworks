@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/11.dir/main.cpp.o CMakeFiles/11.dir/BadFromString.cpp.o  -o 11 

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/drboat/Desktop/CPP_hw/11/BadFromString.h
+string
+-
+exception
+-
+
+/Users/drboat/Desktop/CPP_hw/11/ConvertString.h
+string
+-
+
+/Users/drboat/Desktop/CPP_hw/11/ConvertString.hxx
+BadFromString.h
+/Users/drboat/Desktop/CPP_hw/11/BadFromString.h
+ConvertString.h
+/Users/drboat/Desktop/CPP_hw/11/ConvertString.h
+string
+-
+sstream
+-
+typeinfo
+-
+map
+-
+
+/Users/drboat/Desktop/CPP_hw/11/main.cpp
+iostream
+-
+sstream
+-
+map
+-
+vector
+-
+typeinfo
+-
+ConvertString.hxx
+/Users/drboat/Desktop/CPP_hw/11/ConvertString.hxx
+
