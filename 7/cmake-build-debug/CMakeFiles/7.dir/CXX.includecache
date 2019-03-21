@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/drboat/Desktop/CPP_hw/7/Array.h
+cctype
+-
+
+/Users/drboat/Desktop/CPP_hw/7/Array.hxx
+Array.h
+/Users/drboat/Desktop/CPP_hw/7/Array.h
+cstdio
+-
+algorithm
+-
+
+/Users/drboat/Desktop/CPP_hw/7/Test.cpp
+Test.h
+/Users/drboat/Desktop/CPP_hw/7/Test.h
+
+/Users/drboat/Desktop/CPP_hw/7/Test.h
+ostream
+-
+iostream
+-
+
+/Users/drboat/Desktop/CPP_hw/7/main.cpp
+iostream
+-
+Array.hxx
+/Users/drboat/Desktop/CPP_hw/7/Array.hxx
+Test.h
+/Users/drboat/Desktop/CPP_hw/7/Test.h
+

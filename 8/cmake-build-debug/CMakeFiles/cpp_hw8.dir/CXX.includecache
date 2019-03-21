@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/drboat/Documents/cpp_hw8/Animal.h
+Unit.h
+/Users/drboat/Documents/cpp_hw8/Unit.h
+
+/Users/drboat/Documents/cpp_hw8/Bear.h
+Animal.h
+/Users/drboat/Documents/cpp_hw8/Animal.h
+
+/Users/drboat/Documents/cpp_hw8/Man.h
+Unit.h
+/Users/drboat/Documents/cpp_hw8/Unit.h
+
+/Users/drboat/Documents/cpp_hw8/ManBearPig.cpp
+ManBearPig.h
+/Users/drboat/Documents/cpp_hw8/ManBearPig.h
+
+/Users/drboat/Documents/cpp_hw8/ManBearPig.h
+Bear.h
+/Users/drboat/Documents/cpp_hw8/Bear.h
+Pig.h
+/Users/drboat/Documents/cpp_hw8/Pig.h
+Man.h
+/Users/drboat/Documents/cpp_hw8/Man.h
+
+/Users/drboat/Documents/cpp_hw8/Pig.h
+Animal.h
+/Users/drboat/Documents/cpp_hw8/Animal.h
+
+/Users/drboat/Documents/cpp_hw8/Unit.h
+string
+-
+iostream
+-
+
